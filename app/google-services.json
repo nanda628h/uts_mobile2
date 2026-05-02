@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642647264771",
+    "project_id": "my-remainderjadwal-app",
+    "storage_bucket": "my-remainderjadwal-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642647264771:android:abf1c33469a83ed4edc836",
+        "android_client_info": {
+          "package_name": "com.example.remainderjadwal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWzLG4b67M7lqaD7qh3C-lt3YYFIw3BMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

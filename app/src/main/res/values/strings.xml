@@ -1,0 +1,40 @@
+<resources>
+    <!-- Nama Aplikasi -->
+    <string name="app_name">Reminder Kuliah</string>
+
+    <!-- Splash Screen -->
+    <string name="hello_bekasi">Halo Bekasi 👋</string>
+    <string name="hello_default">Halo dari Kotamu 👋</string>
+    <string name="welcome_message">Selamat datang di aplikasi Reminder Kuliah</string>
+
+    <!-- Tambah Jadwal -->
+    <string name="add_schedule_title">Tambah Jadwal Kuliah</string>
+    <string name="hint_dosen">Nama Dosen</string>
+    <string name="hint_ruangan">Ruangan</string>
+    <string name="hint_jam">Jam (contoh: 08:00)</string>
+    <string name="hint_catatan">Catatan (opsional)</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+
+    <!-- Detail Jadwal -->
+    <string name="detail_title">Detail Jadwal Kuliah</string>
+    <string name="label_dosen">Dosen</string>
+    <string name="label_ruangan">Ruangan</string>
+    <string name="label_jam">Jam</string>
+    <string name="label_catatan">Catatan</string>
+
+    <!-- Umum -->
+    <string name="empty_schedule">Belum ada jadwal, tambahkan sekarang!</string>
+    <string name="menu_settings">Pengaturan</string>
+    <string name="menu_quiz">Kuis</string>
+
+    <!-- PILIHAN REMINDER -->
+    <string-array name="reminder_options">
+        <item>Tanpa Pengingat</item>
+        <item>5 menit sebelum</item>
+        <item>15 menit sebelum</item>
+        <item>30 menit sebelum</item>
+        <item>1 jam sebelum</item>
+        <item>2 jam sebelum</item>
+    </string-array>
+</resources>

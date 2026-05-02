@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_blue"
+    android:clipToPadding="false">
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_glow_soft"
+        app:layout_constraintCircle="@+id/tvGreeting"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="0dp"
+        app:layout_editor_absoluteX="55dp"
+        app:layout_editor_absoluteY="234dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        app:cardBackgroundColor="#22FFFFFF"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="0dp"
+        app:strokeColor="#44FFFFFF"
+        app:strokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivCityIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_bekasi"
+            app:tint="@color/white" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="-0.03"
+            android:text="Halo, Bekasi!"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:shadowColor="#40000000"
+            android:shadowDx="0"
+            android:shadowDy="4"
+            android:shadowRadius="8" />
+
+        <TextView
+            android:id="@+id/tvCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:background="@drawable/bg_chip_transparent"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="4dp"
+            android:text="BEKASI CITY"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp"
+            android:letterSpacing="0.3"
+            android:fontFamily="sans-serif-medium" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/white"
+            android:alpha="0.5" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Selamat datang di aplikasi\nReminder Kuliah"
+            android:textColor="#E0E0E0"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/ivFlag"
+            android:layout_width="24dp"
+            android:layout_height="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/flag_id" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="12dp"
+            android:layout_marginHorizontal="12dp"
+            android:background="#66FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDONESIA"
+            android:textColor="#99FFFFFF"
+            android:textSize="12sp"
+            android:letterSpacing="0.1"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
